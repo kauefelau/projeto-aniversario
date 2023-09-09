@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'aniversario';
+    src: url(../fontes/Chasing\ Hearts\ -\ OTF.otf);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(../fontes/Cream\ Cake.otf);
+}
+
+@font-face {
+    font-family: 'amor';
+    src: url(../fontes/Calligraphy.otf);
+}
+
+:root {
+    --var1: #ffe5ec;
+    --var2: #ffc2d1;
+    --var3: #ffb3c6;
+    --var4: #ff8fab;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background: url(../midias/913e804f-1dad-44dc-96f0-718155293dd6.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#home {
+    background-color: var(--var2);
+    width: 100%;
+}
+
+#menu {
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    width: 500px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#menu p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menu h1 {
+    padding-bottom: 15px;
+    font-family: 'aniversario';
+    font-size: 3em;
+}
+
+.img-inicio {
+    min-width: 10%;
+    width: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#left {
+    top: 30px;
+    left: 5px;
+}
+
+#right {
+    top: 30px;
+    right: 5px;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--var4);
+    display: block;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 0 12px;
+    background: #fff0f2;
+    border-radius: 5px;
+}
+
+main {
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 20px auto 0px;
+    background-color: #ffc2d19d;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+
+main p {
+    padding-bottom: 7px;
+}
+
+.imagens {
+    width: 15%;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 120px;
+}
+
+#img-l {
+    float: left;
+}
+
+#img-r {
+    float: right;
+}
+
+#ini #img-1 {
+    background: url(../midias/IMG_4218.jpg);
+    background-size: cover;
+}
+
+#ini #img-2 {
+    background: url(../midias/9786E956-E7A9-4AD0-AF62-8DABB96E2C4E.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center center
+}
+
+#ini #img-3 {
+    background: url(../midias/IMG_2777.jpg);
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+#ini #img-4 {
+    background: url(../midias/IMG_2778.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+
+#com #img-1 {
+    background: url(../midias/32b49568-7449-40d4-b486-589e8753a552.jpg) center center;
+    background-size: cover;
+}
+
+#com #img-2 {
+    background: url(../midias/6c4e5c70-0680-4854-9733-b08c2cbe0099.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center
+}
+
+#com #img-3 {
+    background: url(../midias/6d888c8f-7874-4ead-af63-bfc93eb07bc4.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+
+#com #img-4 {
+    background: url(../midias/b9843698-423a-4529-bc8e-01ba26434b74.jpg);
+    background-size: 100%;
+    background-position: center center;
+}
+
+
+#amor {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'amor';
+}
+
+#nam #img-1 {
+    background: url(../midias/13e058f6-7bab-4204-baac-b6a8c4d71f34.jpg) center center;
+    background-size: cover;
+}
+
+#nam #img-2 {
+    background: url(../midias/821b5061-9db5-4a9e-92f1-e4353e830885.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center
+}
+
+#nam #img-3 {
+    background: url(../midias/d7cff17c-25c2-4ac5-8e0d-e69fdfcac9fe.jpg);
+    background-size: 100%;
+    background-position: top center;
+}
+
+#nam #img-4 {
+    background: url(../midias/647763d4-0d25-4f5d-9164-e5e4ddf703ce.jpg);
+    background-size: 150%;
+    background-position: center center;
+}
+
+section {
+    text-align: center;
+}
+
+#fim #img-1 {
+    background: url(../midias/d02d420c-a3e5-4b88-ab0c-0705b64ac7e7.jpg) center center;
+    background-size: cover;
+}
+
+#fim #img-2 {
+    background: url(../midias/3b0a6ceb-b0fc-4f4b-8994-582159d659c3.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center
+}
+
+#fim #img-3 {
+    background: url(../midias/46f8f91e-b2a1-42fa-874e-b4d8563f8d21.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#fim #img-4 {
+    background: url(../midias/ce0ce695-8cbd-4e5f-9380-d88155c29a6e.jpg);
+    background-size: 150%;
+}

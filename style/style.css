@@ -230,5 +230,6 @@ section {
 
 #fim #img-4 {
     background: url(../midias/ce0ce695-8cbd-4e5f-9380-d88155c29a6e.jpg);
-    background-size: 150%;
+    background-size: 180%;
+    background-position: center center;
 }
